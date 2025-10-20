@@ -239,9 +239,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  padding-top: 44px;
-  padding-bottom: 180px;
-  padding-left: 49px;
+  padding: 21px 27px 153px 49px;
 }
 
 .about_logo {
@@ -251,7 +249,7 @@
   align-items: center;
   width: 240px;
   height: 240px;
-  margin-top: 18px;
+  margin-top: 41px;
   margin-right: 50px;
   border-radius: 50%;
   background-color: #000;
@@ -268,7 +266,7 @@
 
 .about_title {
   align-self: center;
-  padding-top: 19px;
+  padding-top: 42px;
   font-weight: 700;
   font-size: 40px;
   line-height: 100%;
@@ -279,7 +277,7 @@
 .about_text {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 21px;
   align-self: center;
   font-weight: 400;
   font-size: 20px;
@@ -298,6 +296,7 @@
   display: flex;
   justify-self: start;
   padding-left: 49px;
+  max-width: 286px;
 }
 
 .footer_menu {
